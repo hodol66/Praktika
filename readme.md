@@ -12,3 +12,4 @@ npm run dev
 ```
 npm start
 ```
+![Конь](./cef52492746eff88c5919e94ca1908ea.jpg)
