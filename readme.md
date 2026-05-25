@@ -3,6 +3,7 @@
 ## Как скачать проект 
 ``` 
 git clone https://github.com/hodol66/Praktika.git
+cd Praktika
 npm i 
 npm run dev
 ```
