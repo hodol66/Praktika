@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-async function getNews(query) {
+ function getNews(query) {
   // Отправляем запрос на newsapi
   const response = await axios.get("https://newsapi.org/v2/everything", {
     
