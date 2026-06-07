@@ -1,5 +1,6 @@
 # Супер поиск
 Крутой сайт ищет новости
+![Да](./f8b00c2196c650c3477ffc954ddd9b19.jpg)
 ## Как скачать проект 
 ``` 
 git clone https://github.com/hodol66/Praktika.git
