@@ -1,17 +1,14 @@
-const axios = require("axios");
-
- function getNews(query) {
-
+async function fetchNews() {
   const response = await axios.get("https://newsapi.org/v2/everything", {
-
-    params: {
-      q: query,
-      apiKey: process.env.NEWS_API_KEY, 
-      pageSize: 10, 
-    },
+    params: params
   });
-
-  return response.data.articles;
+  return response.data;
 }
 
-module.exports = { getNews };
+// Или если у вас экспортируемая функция:
+module.exports = async function getNews() {
+  const response = await axios.get("https://newsapi.org/v2/everything", {
+    params: params
+  });
+  return response.data;
+};
